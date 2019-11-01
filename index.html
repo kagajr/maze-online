@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Maze</title>
+    <script src="scripts/maze.js"></script>
 </head>
 
 <body>
-    <canvas id="canvas" width="700" height="700"></canvas>
-    <script defer src="scripts/maze.js"></script>
+    <pre id="out"></pre>
 </body>
-<script>
+
+</html>
+<script type="text/javascript">
+    /* ABOVE CODE GOES HERE */
+    document.getElementById('out').innerHTML = display(maze(8, 11)); 
 </script>
+
 </html>
