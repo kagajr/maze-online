@@ -1,8 +1,32 @@
 .footer-list {
+    font-family: monospace;
+    font-size: 13.5px;
     position: fixed;
     left: 0;
     right: 0;
     bottom: 0;
-    margin: 20px 15px;
+    margin: 20px 44px;
     padding: 8px 12px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.footer-version {
+    display: flex;
+    flex-flow: row nowrap;
+    align-self: baseline;
+    text-align: center;
+}
+
+.footer-version-ico {
+    margin: 0 8px;
+}
+
+.footer-version-link {
+    margin: 16px 8px;
+}
+
+.footer-copyright-text {
+    margin: 16px 8px;
 }
