@@ -11,3 +11,10 @@ Stage 3: Make it online.
 //TODO add header banner(image) OK
 //TODO add background
 //TODO fix footer to bottom OK
+//TODO add gameplay
+//TODO + add player
+//TODO + add movement
+//TODO + add wall
+//TODO + movement inside maze
+//TODO + add start and end of the game
+//TODO + support multiple players
