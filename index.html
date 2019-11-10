@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Maze</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/game.css">
     <link rel="shortcut icon" href="img/icons/favicon.ico" type="image/x-icon">
-    <script src="scripts/maze.js"></script>
+    <script src="scripts/maze.js" defer></script>
+    <script src="scripts/game.js"></script>
 </head>
 
 <body>
@@ -27,7 +29,8 @@
             <h1>Maze-online</h1>
         </div>
         <div class="game-panel">
-            <pre id="out"></pre>
+            <canvas id="canvas" width="700" height="700">
+            </canvas>
         </div>
     </div>
     <div class="game-leaderboard">
@@ -64,9 +67,4 @@
         text-align: center;
     }
 </style>
-<script type="text/javascript">
-    /* ABOVE CODE GOES HERE */
-    document.getElementById('out').innerHTML = display(maze(20, 23)); 
-</script>
-
 </html>
